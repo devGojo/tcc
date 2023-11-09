@@ -8,6 +8,7 @@ import Consulta from './assets/pages/editarproduto';
 import Cadastro from './assets/pages/cadastrar';
 import Minhascompras from'./assets/pages/minhascompras';
 import Carrinho from './assets/pages/carrinho';
+import Paypix from './assets/pages/paypix';
 
 
 
@@ -30,6 +31,7 @@ root.render(
       <Route path='/cadastro' element={<Cadastro/>} />
       <Route path='/minhascomprass' element={<Minhascompras/>} />
       <Route path='/carrinho' element={<Carrinho/>} />
+      <Route path='/paypix' element={<Paypix/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

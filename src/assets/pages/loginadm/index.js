@@ -11,6 +11,7 @@ function Logadm() {
         <img src={slogan}/>
         <h1>Administração</h1>
       </header>
+      
       <section>
         <div className='conteudoadm'>
           <div className='loginzinnn'>
