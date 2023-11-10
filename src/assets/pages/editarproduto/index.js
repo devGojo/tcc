@@ -4,7 +4,7 @@ import logo1 from "../../image/bad-yellow 2.png"
 import logo2 from "../../image/yellow bad 1.png"
 import logo3 from "../../image//pngtree-vector-magnifying-glass-icon-png-image_889405.png"
 import logo4 from "../../image/image 2.png"
-import logo5 from "../../image/image 63.png"
+import logo5 from "../../image/profi.png"
 
 
 import logo6 from "../../image/SUF COLLAGE 1.png"

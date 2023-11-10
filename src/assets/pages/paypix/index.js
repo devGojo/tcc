@@ -4,7 +4,7 @@ import smile from "../../image/bad-yellow 2.png"
 import slogan from "../../image/yellow bad 1.png"
 import logo3 from "../../image//pngtree-vector-magnifying-glass-icon-png-image_889405.png"
 import logo4 from "../../image/image 2.png"
-import logo5 from "../../image/image 63.png"
+import logo5 from "../../image/profi.png"
 import logo6 from "../../image/SUF COLLAGE 1.png"
 import logo7 from "../../image/CONFIRA A COLEÇÃO.png"
 
@@ -43,9 +43,9 @@ function Paypix() {
         </div>
 
         <div className="text">
-          <h2> NEWS </h2>
           <h2> SHOP </h2>
           <h2> BRANDS </h2>
+          <h2> SNEAKERS </h2>
         </div>
 
         <img className="lupa" src={logo3} />
