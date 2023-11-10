@@ -37,14 +37,14 @@ function Minhascompras(){
 
 <div className="cabecalho">
         <div className="imgesquerda">
-          <img src={logo1} />
-          <img src={logo2} />
+          <img src={logo1} className="logo1"/>
+          <img src={logo2} className="logo2"/>
         </div>
 
         <div className="text">
-          <h2> NEWS </h2>
           <h2> SHOP </h2>
           <h2> BRANDS </h2>
+          <h2> SNEAKERS </h2>
         </div>
 
         <img className="lupa" src={logo3} />

@@ -34,8 +34,9 @@ function App() {
     <div className="principal">
       <div className="cabecalho">
         <div className="imgesquerda">
-          <img src={logo1} />
-          <img src={logo2} />
+
+          <a href="/">  <img src={logo1} className="logo1" />
+          <img src={logo2}  className="logo2"/> </a>
         </div>
 
         <div className="text">
@@ -44,8 +45,8 @@ function App() {
           <h2> SNEAKERS </h2>
         </div>
 
-        <img className="lupa" src={logo3} />
-        <img className="lupa1" src={logo5} />
+        <img className="lupa" src={logo3}/>
+        <img className="lupa1" src={logo5}/>
 
         <h2 className="tex2"> Minha conta <br></br> Conecte-se </h2>
 
