@@ -4,11 +4,10 @@ import logo3 from "../../image//pngtree-vector-magnifying-glass-icon-png-image_8
 import logo4 from "../../image/image 2.png"
 import logo5 from "../../image/profi.png"
 import vector from '../../image/vector.png'
-import pinquis from '../../image/qrcode.png'
 
 import './index.scss';
 
-function Paypix() {
+function Paydebit() {
   return (
     <div className="principal">
       <div className="cabecalho">
@@ -50,13 +49,11 @@ function Paypix() {
         
       <div className='mãe'>
       <div className='quadrado'>
-    
+        <div className='gray'>
+          <h1 className='Method'>Pagamento por débito</h1>
+          </div>
+
           <div className='Calculos'>
-
-        <div className="paipix">
-          <h1>Pagamento via Pix</h1>
-        </div>
-
             <div className='piquis'>
 
                 <div className='number'>
@@ -145,4 +142,4 @@ function Paypix() {
   );
 }
 
-export default Paypix;
+export default Paydebit;

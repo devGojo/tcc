@@ -40,18 +40,22 @@ function App() {
         </div>
 
         <div className="text">
-          <h2> SHOP </h2>
-          <h2> BRANDS </h2>
-          <h2> SNEAKERS </h2>
+          <h2 className='shop'> SHOP </h2>
+          <h2 className='brand'> BRANDS </h2>
+          <h2 className='sneak'> SNEAKERS </h2>
         </div>
 
         <img className="lupa" src={logo3}/>
         <img className="lupa1" src={logo5}/>
 
-        <h2 className="tex2"> Minha conta <br></br> Conecte-se </h2>
+       <div>
+        <h2 className="tex2"> Minha conta </h2><h2 className="tec2">Conecte-se </h2>
+    
+        </div>
 
+        <div></div>
         <img className="lupa" src={logo4} />
-        <h2 className="tex2"> Carrinho <br></br> R$ 0,00 BRL </h2>
+        <h2 className="tec3"> Carrinho <br></br> R$ 0,00 BRL </h2>
 
         <div className="ff">
           <div className="finalcabecalho"></div>
