@@ -5,6 +5,9 @@ import logo4 from "../../image/image 2.png"
 import logo5 from "../../image/profi.png"
 import vector from '../../image/vector.png'
 import pinquis from '../../image/qrcode.png'
+import cellphon from '../../image/cellphone.png'
+import littleqr from '../../image/qrzinho.png'
+import verified from '../../image/approve.png'
 
 import './index.scss';
 
@@ -51,7 +54,7 @@ function Paypix() {
       <div className='mãe'>
       <div className='quadrado'>
     
-          <div className='Calculos'>
+          <div className='Calcu'>
 
         <div className="paipix">
           <h1>Pagamento via Pix</h1>
@@ -59,43 +62,44 @@ function Paypix() {
 
             <div className='piquis'>
 
-                <div className='number'>
-                  <h4>Número do cartão</h4>
-            <input className="inp1"></input>
+                <div className='numba'>
+                  <h4>Pague com PIX em qualquer dia e a qualquer hora!<br></br>
+           O pagamento é instantâneo, prático e pode ser feito em poucos segundos. <br></br>
+           É muito ráido e seguro.</h4>
+
                 </div>
             </div>
 
-        <div className="mãe2">
-            <div className='number1'>
-               <h4>Validade Mês/Ano</h4>
-               <input className="inp2"></input>
-               </div>
 
-              <div className="number2">
-                <h4 className='val'>Cód. de Segurança</h4>
-                <input className="inp3"></input>
-                </div>
-       </div>
+          <div className="elemento-qr">
+          <img src={pinquis}  className="qr"/>
+            <div className="elemento-qr-texto">
+              <div className="cellphon">
+                <img src= {cellphon} />
+                <p> 1. Abra o app do seu banco ou instituição financeira
+                 e entre no ambiente PIX.</p>
+              </div>
 
-        <div className="number3">
-            <h4>Nome e Sobrenome do Titular</h4>
-            <input className="inp4"></input>
-        </div>
+              <div className="litteleqr">
+                <img src={littleqr} />
+                <p>2. Escolha a opção Pagar com QR CODE e escaneie o código ao lado.</p>
+              </div>
 
-        <div className="mãe3">
-                <div className="number4">
-                <h4>CPF do titular</h4>
-                <input className="inp5"></input>
-                </div>
+              <div className="verified">
+                <img src={verified} />
+                <p>3. Confirme as informações e finalize a compra.</p>
+              </div>
+            </div>
+          </div>
 
-                <div className="number5">
-                    <h4>N° de Parcelas</h4>
-                    <input className="inp6"></input>
-                </div>
-        </div>
+
+        
+
+       
+
 
         <div className="number6">
-                   <button className="but">COMPRAR AGORA</button>
+                   <button className="tut">CONFIRMAR COMPRA</button>
                 </div>
 
           </div>
